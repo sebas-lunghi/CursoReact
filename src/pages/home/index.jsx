@@ -1,12 +1,16 @@
 import React from 'react'
-import CustomNavbar from '../../components/navbar'
+import NavbarComponent from '../../components/navbar'
+import Cards from "../../cards"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
   return (
     <div>
-        <Navbar />
-
+        <NavbarComponent />
+        <Cards />
     </div>
+
+
   )
 }
 
